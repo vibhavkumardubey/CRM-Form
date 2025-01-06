@@ -5,7 +5,7 @@ const App = () => {
   return (
     <section>
       <Routes>
-        <Route path="/CRM-Form" element={<Form />} />
+        <Route path="/" element={<Form />} />
       </Routes>
     </section>
   );
