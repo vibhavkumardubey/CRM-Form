@@ -1,11 +1,13 @@
-import React from "react";
 import Form from "./Form";
+import { Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
-    <div>
-      <Form />
-    </div>
+    <section>
+      <Routes>
+        <Route path="/" element={<Form />} />
+      </Routes>
+    </section>
   );
 };
 
