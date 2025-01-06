@@ -4,6 +4,5 @@ export default {
   theme: {
     extend: {},
   },
-  base: "/CRM-Form",
   plugins: [],
 };
