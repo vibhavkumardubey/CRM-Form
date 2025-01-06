@@ -1,7 +1,6 @@
 {
   "homepage": "https://vibhavkumardubey.github.io/CRM-Form",
   "name": "crmform",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
