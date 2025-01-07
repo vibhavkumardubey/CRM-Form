@@ -13,7 +13,7 @@ function Form() {
       number,
     };
     axios
-      .post(`http://46.202.164.93:5005/api/leads/manual`, payload)
+      .post(`http://46.202.164.93:5005/api/common/manual-leads`, payload)
       .then((result) => {
         console.log(result);
         alert("Data submitted Successfully!!!");
