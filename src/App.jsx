@@ -5,7 +5,7 @@ const App = () => {
   return (
     <section>
       <Routes>
-        <Route path="/" element={<Form />} />
+        <Route path="/view-form/:tagName" element={<Form />} />
       </Routes>
     </section>
   );
